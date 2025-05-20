@@ -31,28 +31,28 @@ const About = () => {
         {/* Botões de redes sociais */}
         <View className="flex-row justify-between w-full mt-4">
           <TouchableOpacity
-            onPress={() => openLink('https://www.twitch.tv/seuusuario')}
+            onPress={() => openLink('https://www.twitch.tv/consjck3')}
             className="w-14 h-14 rounded-full bg-[#00875f] items-center justify-center"
           >
             <FontAwesome name="twitch" size={24} color="white" />
           </TouchableOpacity>
 
           <TouchableOpacity
-            onPress={() => openLink('https://www.instagram.com/seuusuario')}
+            onPress={() => openLink('https://www.instagram.com/j0a0_constantino/')}
             className="w-14 h-14 rounded-full bg-[#00875f] items-center justify-center"
           >
             <Feather name="instagram" size={24} color="white" />
           </TouchableOpacity>
 
           <TouchableOpacity
-            onPress={() => openLink('https://www.youtube.com/seuusuario')}
+            onPress={() => openLink('https://www.youtube.com/@consjck3')}
             className="w-14 h-14 rounded-full bg-[#00875f] items-center justify-center"
           >
             <AntDesign name="youtube" size={24} color="white" />
           </TouchableOpacity>
 
           <TouchableOpacity
-            onPress={() => openLink('https://www.linkedin.com/in/seuusuario')}
+            onPress={() => openLink('https://www.linkedin.com/in/jo%C3%A3o-barreto-42a05224a/')}
             className="w-14 h-14 rounded-full bg-[#00875f] items-center justify-center"
           >
             <Feather name="linkedin" size={24} color="white" />

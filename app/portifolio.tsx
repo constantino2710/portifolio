@@ -10,28 +10,33 @@ const Portifolio = () => {
 
       <CardLink
         title="Meu primeiro site"
-        href="/projeto1"
+        href="/projetos/projeto1"
         image={require('../assets/image.png')}
       />
       <CardLink
         title="Plataforma de estoque"
-        href="/projeto2"
+        href="/projetos/projeto2"
         image={require('../assets/nordestemedical.webp')}
       />
       <CardLink
         title="Projeto redbull"
-        href="/projeto3"
+        href="/projetos/projeto3"
         image={require('../assets/red-bull.png')}
       />
       <CardLink
         title="PIBIC"
-        href="/projeto4"
+        href="/projetos/projeto4"
         image={require('../assets/unicap.png')}
         />
       <CardLink
         title="App para comunidade"
-        href="/projeto5"
+        href="/projetos/projeto5"
         image={require('../assets/carangueijo.png')}
+      />
+      <CardLink
+        title="Curso rocketseat"
+        href="/projetos/projeto6"
+        image={require('../assets/ignitelogo.svg')}
       />
     </View>
   );
