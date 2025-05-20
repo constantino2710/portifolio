@@ -33,11 +33,6 @@ const Portifolio = () => {
         href="/projetos/projeto5"
         image={require('../assets/carangueijo.png')}
       />
-      <CardLink
-        title="Curso rocketseat"
-        href="/projetos/projeto6"
-        image={require('../assets/ignitelogo.svg')}
-      />
     </View>
   );
 };
